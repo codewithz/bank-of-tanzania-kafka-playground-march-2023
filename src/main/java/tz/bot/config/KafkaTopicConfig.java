@@ -15,5 +15,14 @@ public class KafkaTopicConfig {
                 .replicas(1)
                 .build();
     }
+    @Bean
+    public NewTopic createTopicBOTJSON(){
+        return TopicBuilder
+                .name("bank_of_tanzania_json")
+                .partitions(2)
+                .replicas(1)
+                .build();
+    }
+
 
 }

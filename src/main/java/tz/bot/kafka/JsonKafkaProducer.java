@@ -13,7 +13,7 @@ import tz.bot.payload.User;
 @Service
 public class JsonKafkaProducer {
 
-    private String topicName;
+    private String topicName="bank_of_tanzania_json";
 
     private static final Logger LOGGER= LoggerFactory.getLogger(JsonKafkaProducer.class);
 
